@@ -4517,7 +4517,7 @@ void PrintConfigDef::init_fff_params()
     def->tooltip = L("Cost of moving the extruder. The highest penalty is when the point is the furthest from the position of the extruder before extruding the external perimeter");
     def->sidetext = L("%");
     def->min = 0;
-    def->max = 50;
+    def->max = 100;
     def->mode = comExpert | comSuSi;
     def->set_default_value(new ConfigOptionPercent(100));
 
